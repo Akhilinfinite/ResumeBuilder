@@ -1,0 +1,264 @@
+.FormComponent {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+}
+.title {
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  border: 2px;
+  background-color: rgb(196, 195, 193);
+  border-radius: 20px;
+  box-shadow: 2px 4px 4px 0px gray;
+}
+.BasicDetais {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+.Feilds {
+  display: flex;
+  width: 100%;
+  margin: 10px 0px;
+  flex-direction: row;
+  align-items: center;
+}
+.Lable {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  height: 25px;
+  padding: 5px;
+}
+.InputFeild {
+  height: 23px;
+  margin: 3px 20px;
+  border-radius: 10px;
+  width: 80%;
+  padding: 5px 10px;
+  font-size: 18px;
+}
+.Addressf {
+  display: flex;
+  height: 50px;
+  margin: 3px 20px;
+  border-radius: 10px;
+  width: 80%;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 0;
+}
+.SkillLable {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 25px;
+  padding: 5px;
+}
+.InputFeildSkills {
+  display: flex;
+  height: 50px;
+  margin: 3px 20px;
+  border-radius: 10px;
+  width: 80%;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+.SkillAddButton {
+  width: 97%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.items-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  padding: 0;
+}
+
+.ListKey {
+  max-width: 100%;
+  word-break: break-all; /* Allow long words to break */
+  margin: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.Projects {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.projectURL {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 935px) {
+  .Dates {
+    display: flex;
+    flex-direction: column;
+  }
+  .dividers {
+    display: none;
+  }
+  .Lable {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: 25px;
+    padding: 5px;
+  }
+  .SkillLable {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 25px;
+    padding: 5px;
+  }
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .InputFeildSkills {
+    height: 23px;
+    margin: 3px;
+    border-radius: 10px;
+    width: 70%;
+    padding: 5px 10px;
+    font-size: 18px;
+  }
+  .items-list {
+    width: 90%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    padding: 0;
+  }
+
+  .ListKey {
+    max-width: 100%;
+    word-break: break-all; /* Allow long words to break */
+    margin: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .FormComponent {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+  }
+  .title {
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border: 2px;
+    background-color: rgb(196, 195, 193);
+    border-radius: 20px;
+    box-shadow: 2px 4px 4px 0px gray;
+  }
+  .BasicDetais {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .Feilds {
+    display: flex;
+    width: 90%;
+    margin: 7px 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Lable {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: 25px;
+    padding: 5px;
+  }
+  .divider {
+    display: none;
+  }
+  .InputFeild {
+    height: 23px;
+    margin: 3px;
+    border-radius: 10px;
+    width: 80%;
+    padding: 5px 10px;
+    font-size: 18px;
+  }
+  .Addressf {
+    display: flex;
+    height: 50px;
+    margin: 3px;
+    border-radius: 10px;
+    width: 80%;
+    font-size: 18px;
+    padding: 10px;
+  }
+  .SkillLable {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 25px;
+    padding: 5px;
+  }
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .InputFeildSkills {
+    height: 23px;
+    margin: 3px;
+    border-radius: 10px;
+    width: 70%;
+    padding: 5px 10px;
+    font-size: 18px;
+  }
+  .items-list {
+    width: 80%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    padding: 0;
+  }
+
+  .ListKey {
+    max-width: 100%;
+    word-break: break-all; /* Allow long words to break */
+    margin: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    align-items: center;
+  }
+}
